@@ -1,0 +1,29 @@
+{
+  "name": "doclib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "tailwind": "npx tailwindcss -i src/styles/tailwind.css -c tailwind.config.js -o src/styles/index.css --watch",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@preact/signals": "^1.2.1",
+    "@tauri-apps/api": "^1.5.1",
+    "clsx": "^2.0.0",
+    "lucide-preact": "^0.292.0",
+    "pdfjs-dist": "^4.0.189",
+    "preact": "^10.16.0",
+    "preact-router": "^4.1.2",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@tauri-apps/cli": "^1.5.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4"
+  }
+}
